@@ -1,0 +1,170 @@
+02:50:11 DEBUG    Loaded: Dauda Kahutu Rarara (Nigeria, Music Artist, max=5)
+02:50:11 DEBUG    Loaded: Umar M Sharif (Nigeria, Music Artist, max=5)
+02:50:11 DEBUG    Loaded: Garzali Miko (Nigeria, Music Artist, max=3)
+02:50:11 DEBUG    Loaded: Zaki Dan Yaya (Nigeria, Music Artist, max=3)
+02:50:11 DEBUG    Loaded: Babba Sadou (Nigeria, Music Artist, max=3)
+02:50:11 DEBUG    Loaded: Burna Boy (Nigeria, Music Artist, max=5)
+02:50:11 DEBUG    Loaded: Wizkid (Nigeria, Music Artist, max=5)
+02:50:11 DEBUG    Loaded: Davido (Nigeria, Music Artist, max=5)
+02:50:11 DEBUG    Loaded: Tiwa Savage (Nigeria, Music Artist, max=5)
+02:50:11 DEBUG    Loaded: Genevieve Nnaji (Nigeria, Actress, max=5)
+02:50:11 INFO     Loaded 10 artist(s) from 'artists.txt'
+02:50:11 INFO     ━━ [1/10] Dauda Kahutu Rarara (Nigeria · Music Artist · max=5)
+02:50:11 INFO       Query: "Dauda Kahutu Rarara" Music Artist
+02:50:11 DEBUG      GET https://gnews.io/api/v4/search?q=%22Dauda+Kahutu+Rarara%22+Music+Artist&lang=en&max=10&apikey=***
+02:50:17 DEBUG      GNews returned 0 articles (total=0)
+02:50:17 INFO       GNews: 0 new results for query #1
+02:50:18 INFO       Query: "Dauda Kahutu Rarara" music news
+02:50:18 DEBUG      GET https://gnews.io/api/v4/search?q=%22Dauda+Kahutu+Rarara%22+music+news&lang=en&max=10&apikey=***
+02:50:19 DEBUG      GNews returned 0 articles (total=0)
+02:50:19 INFO       GNews: 0 new results for query #2
+02:50:20 INFO       Query: "Dauda Kahutu Rarara" Nigeria
+02:50:20 DEBUG      GET https://gnews.io/api/v4/search?q=%22Dauda+Kahutu+Rarara%22+Nigeria&lang=en&max=10&apikey=***
+02:50:21 DEBUG      GNews returned 0 articles (total=0)
+02:50:21 INFO       GNews: 0 new results for query #3
+02:50:21 DEBUG      Raw total before dedup: 0
+02:50:21 INFO       No results from GNews for: Dauda Kahutu Rarara
+02:50:21 INFO     ━━ [2/10] Umar M Sharif (Nigeria · Music Artist · max=5)
+02:50:21 INFO       Query: "Umar M Sharif" Music Artist
+02:50:21 DEBUG      GET https://gnews.io/api/v4/search?q=%22Umar+M+Sharif%22+Music+Artist&lang=en&max=10&apikey=***
+02:50:22 WARNING    429 Too Many Requests — waiting 2s before retry 1/3
+02:50:25 DEBUG      GNews returned 0 articles (total=0)
+02:50:25 INFO       GNews: 0 new results for query #1
+02:50:26 INFO       Query: "Umar M Sharif" music news
+02:50:26 DEBUG      GET https://gnews.io/api/v4/search?q=%22Umar+M+Sharif%22+music+news&lang=en&max=10&apikey=***
+02:50:27 DEBUG      GNews returned 0 articles (total=0)
+02:50:27 INFO       GNews: 0 new results for query #2
+02:50:28 INFO       Query: "Umar M Sharif" Nigeria
+02:50:28 DEBUG      GET https://gnews.io/api/v4/search?q=%22Umar+M+Sharif%22+Nigeria&lang=en&max=10&apikey=***
+02:50:29 DEBUG      GNews returned 0 articles (total=0)
+02:50:29 INFO       GNews: 0 new results for query #3
+02:50:29 DEBUG      Raw total before dedup: 0
+02:50:29 INFO       No results from GNews for: Umar M Sharif
+02:50:29 INFO     ━━ [3/10] Garzali Miko (Nigeria · Music Artist · max=3)
+02:50:29 INFO       Query: "Garzali Miko" Music Artist
+02:50:29 DEBUG      GET https://gnews.io/api/v4/search?q=%22Garzali+Miko%22+Music+Artist&lang=en&max=10&apikey=***
+02:50:30 WARNING    429 Too Many Requests — waiting 2s before retry 1/3
+02:50:33 DEBUG      GNews returned 0 articles (total=0)
+02:50:33 INFO       GNews: 0 new results for query #1
+02:50:34 INFO       Query: "Garzali Miko" music news
+02:50:34 DEBUG      GET https://gnews.io/api/v4/search?q=%22Garzali+Miko%22+music+news&lang=en&max=10&apikey=***
+02:50:35 DEBUG      GNews returned 0 articles (total=0)
+02:50:35 INFO       GNews: 0 new results for query #2
+02:50:36 INFO       Query: "Garzali Miko" Nigeria
+02:50:36 DEBUG      GET https://gnews.io/api/v4/search?q=%22Garzali+Miko%22+Nigeria&lang=en&max=10&apikey=***
+02:50:37 DEBUG      GNews returned 0 articles (total=0)
+02:50:37 INFO       GNews: 0 new results for query #3
+02:50:37 DEBUG      Raw total before dedup: 0
+02:50:37 INFO       No results from GNews for: Garzali Miko
+02:50:37 INFO     ━━ [4/10] Zaki Dan Yaya (Nigeria · Music Artist · max=3)
+02:50:37 INFO       Query: "Zaki Dan Yaya" Music Artist
+02:50:37 DEBUG      GET https://gnews.io/api/v4/search?q=%22Zaki+Dan+Yaya%22+Music+Artist&lang=en&max=10&apikey=***
+02:50:38 WARNING    429 Too Many Requests — waiting 2s before retry 1/3
+02:50:41 DEBUG      GNews returned 0 articles (total=0)
+02:50:41 INFO       GNews: 0 new results for query #1
+02:50:42 INFO       Query: "Zaki Dan Yaya" music news
+02:50:42 DEBUG      GET https://gnews.io/api/v4/search?q=%22Zaki+Dan+Yaya%22+music+news&lang=en&max=10&apikey=***
+02:50:43 DEBUG      GNews returned 0 articles (total=0)
+02:50:43 INFO       GNews: 0 new results for query #2
+02:50:44 INFO       Query: "Zaki Dan Yaya" Nigeria
+02:50:44 DEBUG      GET https://gnews.io/api/v4/search?q=%22Zaki+Dan+Yaya%22+Nigeria&lang=en&max=10&apikey=***
+02:50:45 DEBUG      GNews returned 0 articles (total=0)
+02:50:45 INFO       GNews: 0 new results for query #3
+02:50:45 DEBUG      Raw total before dedup: 0
+02:50:45 INFO       No results from GNews for: Zaki Dan Yaya
+02:50:45 INFO     ━━ [5/10] Babba Sadou (Nigeria · Music Artist · max=3)
+02:50:45 INFO       Query: "Babba Sadou" Music Artist
+02:50:45 DEBUG      GET https://gnews.io/api/v4/search?q=%22Babba+Sadou%22+Music+Artist&lang=en&max=10&apikey=***
+02:50:46 WARNING    429 Too Many Requests — waiting 2s before retry 1/3
+02:50:50 DEBUG      GNews returned 0 articles (total=0)
+02:50:50 INFO       GNews: 0 new results for query #1
+02:50:51 INFO       Query: "Babba Sadou" music news
+02:50:51 DEBUG      GET https://gnews.io/api/v4/search?q=%22Babba+Sadou%22+music+news&lang=en&max=10&apikey=***
+02:50:52 DEBUG      GNews returned 0 articles (total=0)
+02:50:52 INFO       GNews: 0 new results for query #2
+02:50:53 INFO       Query: "Babba Sadou" Nigeria
+02:50:53 DEBUG      GET https://gnews.io/api/v4/search?q=%22Babba+Sadou%22+Nigeria&lang=en&max=10&apikey=***
+02:50:54 DEBUG      GNews returned 0 articles (total=0)
+02:50:54 INFO       GNews: 0 new results for query #3
+02:50:54 DEBUG      Raw total before dedup: 0
+02:50:54 INFO       No results from GNews for: Babba Sadou
+02:50:54 INFO     ━━ [6/10] Burna Boy (Nigeria · Music Artist · max=5)
+02:50:54 INFO       Query: "Burna Boy" Music Artist
+02:50:54 DEBUG      GET https://gnews.io/api/v4/search?q=%22Burna+Boy%22+Music+Artist&lang=en&max=10&apikey=***
+02:50:55 WARNING    429 Too Many Requests — waiting 2s before retry 1/3
+02:50:58 DEBUG      GNews returned 4 articles (total=6)
+02:50:58 INFO       GNews: 4 new results for query #1
+02:50:59 DEBUG      Got 4 articles — skipping further query templates
+02:50:59 DEBUG      Raw total before dedup: 4
+02:50:59 INFO       3 unique articles after dedup (from 4 raw)
+02:50:59 INFO       → 3 article(s) accepted for Burna Boy
+02:51:00 INFO     ━━ [7/10] Wizkid (Nigeria · Music Artist · max=5)
+02:51:00 INFO       Query: "Wizkid" Music Artist
+02:51:00 DEBUG      GET https://gnews.io/api/v4/search?q=%22Wizkid%22+Music+Artist&lang=en&max=10&apikey=***
+02:51:01 DEBUG      GNews returned 0 articles (total=1)
+02:51:01 INFO       GNews: 0 new results for query #1
+02:51:02 INFO       Query: "Wizkid" music news
+02:51:02 DEBUG      GET https://gnews.io/api/v4/search?q=%22Wizkid%22+music+news&lang=en&max=10&apikey=***
+02:51:03 DEBUG      GNews returned 0 articles (total=0)
+02:51:03 INFO       GNews: 0 new results for query #2
+02:51:04 INFO       Query: "Wizkid" Nigeria
+02:51:04 DEBUG      GET https://gnews.io/api/v4/search?q=%22Wizkid%22+Nigeria&lang=en&max=10&apikey=***
+02:51:05 DEBUG      GNews returned 0 articles (total=4)
+02:51:05 INFO       GNews: 0 new results for query #3
+02:51:05 DEBUG      Raw total before dedup: 0
+02:51:05 INFO       No results from GNews for: Wizkid
+02:51:05 INFO     ━━ [8/10] Davido (Nigeria · Music Artist · max=5)
+02:51:05 INFO       Query: "Davido" Music Artist
+02:51:05 DEBUG      GET https://gnews.io/api/v4/search?q=%22Davido%22+Music+Artist&lang=en&max=10&apikey=***
+02:51:06 WARNING    429 Too Many Requests — waiting 2s before retry 1/3
+02:51:09 DEBUG      GNews returned 0 articles (total=2)
+02:51:09 INFO       GNews: 0 new results for query #1
+02:51:10 INFO       Query: "Davido" music news
+02:51:10 DEBUG      GET https://gnews.io/api/v4/search?q=%22Davido%22+music+news&lang=en&max=10&apikey=***
+02:51:11 DEBUG      GNews returned 0 articles (total=0)
+02:51:11 INFO       GNews: 0 new results for query #2
+02:51:12 INFO       Query: "Davido" Nigeria
+02:51:12 DEBUG      GET https://gnews.io/api/v4/search?q=%22Davido%22+Nigeria&lang=en&max=10&apikey=***
+02:51:13 DEBUG      GNews returned 0 articles (total=7)
+02:51:13 INFO       GNews: 0 new results for query #3
+02:51:13 DEBUG      Raw total before dedup: 0
+02:51:13 INFO       No results from GNews for: Davido
+02:51:13 INFO     ━━ [9/10] Tiwa Savage (Nigeria · Music Artist · max=5)
+02:51:13 INFO       Query: "Tiwa Savage" Music Artist
+02:51:13 DEBUG      GET https://gnews.io/api/v4/search?q=%22Tiwa+Savage%22+Music+Artist&lang=en&max=10&apikey=***
+02:51:14 WARNING    429 Too Many Requests — waiting 2s before retry 1/3
+02:51:17 DEBUG      GNews returned 0 articles (total=0)
+02:51:17 INFO       GNews: 0 new results for query #1
+02:51:18 INFO       Query: "Tiwa Savage" music news
+02:51:18 DEBUG      GET https://gnews.io/api/v4/search?q=%22Tiwa+Savage%22+music+news&lang=en&max=10&apikey=***
+02:51:19 DEBUG      GNews returned 0 articles (total=0)
+02:51:19 INFO       GNews: 0 new results for query #2
+02:51:20 INFO       Query: "Tiwa Savage" Nigeria
+02:51:20 DEBUG      GET https://gnews.io/api/v4/search?q=%22Tiwa+Savage%22+Nigeria&lang=en&max=10&apikey=***
+02:51:21 DEBUG      GNews returned 2 articles (total=5)
+02:51:21 INFO       GNews: 2 new results for query #3
+02:51:21 DEBUG      Raw total before dedup: 2
+02:51:21 INFO       2 unique articles after dedup (from 2 raw)
+02:51:21 INFO       → 2 article(s) accepted for Tiwa Savage
+02:51:22 INFO     ━━ [10/10] Genevieve Nnaji (Nigeria · Actress · max=5)
+02:51:22 INFO       Query: "Genevieve Nnaji" Actress
+02:51:22 DEBUG      GET https://gnews.io/api/v4/search?q=%22Genevieve+Nnaji%22+Actress&lang=en&max=10&apikey=***
+02:51:23 DEBUG      GNews returned 0 articles (total=0)
+02:51:23 INFO       GNews: 0 new results for query #1
+02:51:24 INFO       Query: "Genevieve Nnaji" music news
+02:51:24 DEBUG      GET https://gnews.io/api/v4/search?q=%22Genevieve+Nnaji%22+music+news&lang=en&max=10&apikey=***
+02:51:25 DEBUG      GNews returned 0 articles (total=0)
+02:51:25 INFO       GNews: 0 new results for query #2
+02:51:26 INFO       Query: "Genevieve Nnaji" Nigeria
+02:51:26 DEBUG      GET https://gnews.io/api/v4/search?q=%22Genevieve+Nnaji%22+Nigeria&lang=en&max=10&apikey=***
+02:51:27 DEBUG      GNews returned 0 articles (total=0)
+02:51:27 INFO       GNews: 0 new results for query #3
+02:51:27 DEBUG      Raw total before dedup: 0
+02:51:27 INFO       No results from GNews for: Genevieve Nnaji
+02:51:27 INFO     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+02:51:27 INFO     Finished
+02:51:27 INFO       Artists processed : 10 / 10
+02:51:27 INFO       Artists with hits : 2
+02:51:27 INFO       Articles accepted : 5
+02:51:27 INFO       Articles rejected : 0  (failed relevance filter)
+02:51:27 INFO       DRY RUN — no CSV written

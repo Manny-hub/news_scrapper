@@ -1,0 +1,73 @@
+03:08:05 DEBUG    Loaded: Dauda Kahutu Rarara (Nigeria, Music Artist, max=5)
+03:08:05 DEBUG    Loaded: Umar M Sharif (Nigeria, Music Artist, max=5)
+03:08:05 DEBUG    Loaded: Garzali Miko (Nigeria, Music Artist, max=3)
+03:08:05 DEBUG    Loaded: Zaki Dan Yaya (Nigeria, Music Artist, max=3)
+03:08:05 DEBUG    Loaded: Babba Sadou (Nigeria, Music Artist, max=3)
+03:08:05 DEBUG    Loaded: Burna Boy (Nigeria, Music Artist, max=5)
+03:08:05 DEBUG    Loaded: Wizkid (Nigeria, Music Artist, max=5)
+03:08:05 DEBUG    Loaded: Davido (Nigeria, Music Artist, max=5)
+03:08:05 DEBUG    Loaded: Tiwa Savage (Nigeria, Music Artist, max=5)
+03:08:05 DEBUG    Loaded: Genevieve Nnaji (Nigeria, Actress, max=5)
+03:08:05 INFO     Loaded 10 artist(s) from 'artists.txt'
+03:08:05 INFO     --limit 3: processing 3 artist(s)
+03:08:05 INFO     Output CSV → /home/dell/Downloads/news_scrapper/output/news_20260603_030805.csv
+03:08:05 INFO     ━━ [1/3] Dauda Kahutu Rarara (Nigeria · Music Artist · max=5)
+03:08:05 INFO       Query: "Dauda Kahutu Rarara" Music Artist
+03:08:05 DEBUG      GET https://gnews.io/api/v4/search?q=%22Dauda+Kahutu+Rarara%22+Music+Artist&lang=en&max=10&apikey=***
+03:08:11 DEBUG      GNews returned 0 articles (total=0)
+03:08:11 INFO       GNews: 0 new results for query #1
+03:08:12 INFO       Query: "Dauda Kahutu Rarara" music news
+03:08:12 DEBUG      GET https://gnews.io/api/v4/search?q=%22Dauda+Kahutu+Rarara%22+music+news&lang=en&max=10&apikey=***
+03:08:13 DEBUG      GNews returned 0 articles (total=0)
+03:08:13 INFO       GNews: 0 new results for query #2
+03:08:14 INFO       Query: "Dauda Kahutu Rarara" Nigeria
+03:08:14 DEBUG      GET https://gnews.io/api/v4/search?q=%22Dauda+Kahutu+Rarara%22+Nigeria&lang=en&max=10&apikey=***
+03:08:14 DEBUG      GNews returned 0 articles (total=0)
+03:08:15 INFO       GNews: 0 new results for query #3
+03:08:15 DEBUG      Raw total before dedup: 0
+03:08:15 INFO       No results from GNews for: Dauda Kahutu Rarara
+03:08:15 INFO     ━━ [2/3] Umar M Sharif (Nigeria · Music Artist · max=5)
+03:08:15 INFO       Query: "Umar M Sharif" Music Artist
+03:08:15 DEBUG      GET https://gnews.io/api/v4/search?q=%22Umar+M+Sharif%22+Music+Artist&lang=en&max=10&apikey=***
+03:08:16 DEBUG      GNews returned 0 articles (total=0)
+03:08:16 INFO       GNews: 0 new results for query #1
+03:08:17 INFO       Query: "Umar M Sharif" music news
+03:08:17 DEBUG      GET https://gnews.io/api/v4/search?q=%22Umar+M+Sharif%22+music+news&lang=en&max=10&apikey=***
+03:08:18 DEBUG      GNews returned 0 articles (total=0)
+03:08:18 INFO       GNews: 0 new results for query #2
+03:08:19 INFO       Query: "Umar M Sharif" Nigeria
+03:08:19 DEBUG      GET https://gnews.io/api/v4/search?q=%22Umar+M+Sharif%22+Nigeria&lang=en&max=10&apikey=***
+03:08:20 DEBUG      GNews returned 0 articles (total=0)
+03:08:20 INFO       GNews: 0 new results for query #3
+03:08:20 DEBUG      Raw total before dedup: 0
+03:08:20 INFO       No results from GNews for: Umar M Sharif
+03:08:20 INFO     ━━ [3/3] Garzali Miko (Nigeria · Music Artist · max=3)
+03:08:20 INFO       Query: "Garzali Miko" Music Artist
+03:08:20 DEBUG      GET https://gnews.io/api/v4/search?q=%22Garzali+Miko%22+Music+Artist&lang=en&max=10&apikey=***
+03:08:20 WARNING    429 Too Many Requests — waiting 2s before retry 1/3
+03:08:23 DEBUG      GNews returned 0 articles (total=0)
+03:08:23 INFO       GNews: 0 new results for query #1
+03:08:24 INFO       Query: "Garzali Miko" music news
+03:08:24 DEBUG      GET https://gnews.io/api/v4/search?q=%22Garzali+Miko%22+music+news&lang=en&max=10&apikey=***
+03:08:25 DEBUG      GNews returned 0 articles (total=0)
+03:08:25 INFO       GNews: 0 new results for query #2
+03:08:26 INFO       Query: "Garzali Miko" Nigeria
+03:08:26 DEBUG      GET https://gnews.io/api/v4/search?q=%22Garzali+Miko%22+Nigeria&lang=en&max=10&apikey=***
+03:08:27 DEBUG      GNews returned 0 articles (total=0)
+03:08:27 INFO       GNews: 0 new results for query #3
+03:08:27 DEBUG      Raw total before dedup: 0
+03:08:27 INFO       No results from GNews for: Garzali Miko
+03:08:27 INFO     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+03:08:27 INFO     Finished
+03:08:27 INFO       Artists processed : 3 / 3
+03:08:27 INFO       Artists with hits : 0
+03:08:27 INFO       Articles accepted : 0
+03:08:27 INFO       Articles rejected : 0  (failed relevance filter)
+03:08:27 INFO       Output CSV        : /home/dell/Downloads/news_scrapper/output/news_20260603_030805.csv
+03:08:27 INFO       Rows written      : 0
+03:08:27 WARNING  No articles passed the relevance filter.
+Tips:
+  • Lower MIN_RELEVANCE_SCORE in config.py (currently 2)
+  • Check artist names are spelled correctly in artists.txt
+  • Run with --verbose to see why articles are being rejected
+  • Verify GNEWS_API_KEY is set correctly in your .env file

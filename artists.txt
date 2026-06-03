@@ -1,0 +1,27 @@
+# MightyCiti News Scraper — Artist Input File
+#
+# Format per line:
+#   artist_name | country | artist_type | max_articles
+#
+# Rules:
+#   - Lines starting with # are comments and are ignored
+#   - Blank lines are ignored
+#   - country       : used to filter results to the right region (optional, default: Nigeria)
+#   - artist_type   : Music Artist / Actor / Comedian / etc. (optional, default: Music Artist)
+#   - max_articles  : override the global limit for this artist only (optional)
+#
+# The scraper builds the GNews query as:
+#   "{artist_name}" {artist_type} news
+# and applies strict relevance filtering so only articles ABOUT this
+# specific artist are saved — not general news that mentions them in passing.
+
+Dauda Kahutu Rarara | Nigeria | Music Artist | 5
+Umar M Sharif       | Nigeria | Music Artist | 5
+Garzali Miko        | Nigeria | Music Artist | 3
+Zaki Dan Yaya       | Nigeria | Music Artist | 3
+Babba Sadou         | Nigeria | Music Artist | 3
+Burna Boy           | Nigeria | Music Artist | 5
+Wizkid              | Nigeria | Music Artist | 5
+Davido              | Nigeria | Music Artist | 5
+Tiwa Savage         | Nigeria | Music Artist | 5
+Genevieve Nnaji     | Nigeria | Actress      | 5
