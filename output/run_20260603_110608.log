@@ -1,0 +1,59 @@
+11:06:08 DEBUG    Loaded: Dauda Kahutu Rarara (Nigeria, Music Artist, max=5)
+11:06:08 DEBUG    Loaded: Umar M Sharif (Nigeria, Music Artist, max=5)
+11:06:08 DEBUG    Loaded: Garzali Miko (Nigeria, Music Artist, max=3)
+11:06:08 DEBUG    Loaded: Zaki Dan Yaya (Nigeria, Music Artist, max=3)
+11:06:08 DEBUG    Loaded: Babba Sadou (Nigeria, Music Artist, max=3)
+11:06:08 DEBUG    Loaded: Burna Boy (Nigeria, Music Artist, max=5)
+11:06:08 DEBUG    Loaded: Wizkid (Nigeria, Music Artist, max=5)
+11:06:08 DEBUG    Loaded: Davido (Nigeria, Music Artist, max=5)
+11:06:08 DEBUG    Loaded: Tiwa Savage (Nigeria, Music Artist, max=5)
+11:06:08 DEBUG    Loaded: Genevieve Nnaji (Nigeria, Actress, max=5)
+11:06:08 INFO     Loaded 10 artist(s) from 'artists.txt'
+11:06:08 INFO     Output CSV → /home/dell/Downloads/news_scrapper/output/news_20260603_110608.csv
+11:06:08 INFO     ━━ [1/10] Dauda Kahutu Rarara (Nigeria · Music Artist · max=5)
+11:06:08 DEBUG    Date windows (4 × ~91d):
+11:06:08 DEBUG      Window 1: 2025-06-03 → 2025-09-02
+11:06:08 DEBUG      Window 2: 2025-09-02 → 2025-12-02
+11:06:08 DEBUG      Window 3: 2025-12-02 → 2026-03-03
+11:06:08 DEBUG      Window 4: 2026-03-03 → 2026-06-03
+11:06:08 INFO       Searching 4 date window(s) × up to 3 query template(s)
+11:06:08 INFO       Window 1/4: 2025-06-03 → 2025-09-02
+11:06:08 DEBUG      GET https://gnews.io/api/v4/search?q=%22Dauda+Kahutu+Rarara%22+Music+Artist&lang=en&max=10&from=2025-06-03T00%3A00%3A00Z&to=2025-09-02T06%3A00%3A00Z&apikey=***
+11:06:09 DEBUG      → 0 articles  (total in index: 0)
+11:06:09 INFO         Query 1: '"Dauda Kahutu Rarara" Music Artist' → 0 articles
+11:06:10 DEBUG      GET https://gnews.io/api/v4/search?q=%22Dauda+Kahutu+Rarara%22+music+news&lang=en&max=10&from=2025-06-03T00%3A00%3A00Z&to=2025-09-02T06%3A00%3A00Z&apikey=***
+11:06:11 DEBUG      → 0 articles  (total in index: 0)
+11:06:11 INFO         Query 2: '"Dauda Kahutu Rarara" music news' → 0 articles
+11:06:12 DEBUG      GET https://gnews.io/api/v4/search?q=%22Dauda+Kahutu+Rarara%22+Nigeria&lang=en&max=10&from=2025-06-03T00%3A00%3A00Z&to=2025-09-02T06%3A00%3A00Z&apikey=***
+11:06:12 DEBUG      → 0 articles  (total in index: 0)
+11:06:12 INFO         Query 3: '"Dauda Kahutu Rarara" Nigeria' → 0 articles
+11:06:12 INFO       Window 2/4: 2025-09-02 → 2025-12-02
+11:06:14 DEBUG      GET https://gnews.io/api/v4/search?q=%22Dauda+Kahutu+Rarara%22+Music+Artist&lang=en&max=10&from=2025-09-02T06%3A00%3A00Z&to=2025-12-02T12%3A00%3A00Z&apikey=***
+11:06:14 DEBUG      → 0 articles  (total in index: 0)
+11:06:14 INFO         Query 1: '"Dauda Kahutu Rarara" Music Artist' → 0 articles
+11:06:16 DEBUG      GET https://gnews.io/api/v4/search?q=%22Dauda+Kahutu+Rarara%22+music+news&lang=en&max=10&from=2025-09-02T06%3A00%3A00Z&to=2025-12-02T12%3A00%3A00Z&apikey=***
+11:06:16 DEBUG      → 0 articles  (total in index: 0)
+11:06:16 INFO         Query 2: '"Dauda Kahutu Rarara" music news' → 0 articles
+11:06:17 DEBUG      GET https://gnews.io/api/v4/search?q=%22Dauda+Kahutu+Rarara%22+Nigeria&lang=en&max=10&from=2025-09-02T06%3A00%3A00Z&to=2025-12-02T12%3A00%3A00Z&apikey=***
+11:06:18 DEBUG      → 0 articles  (total in index: 0)
+11:06:18 INFO         Query 3: '"Dauda Kahutu Rarara" Nigeria' → 0 articles
+11:06:18 INFO       Window 3/4: 2025-12-02 → 2026-03-03
+11:06:19 DEBUG      GET https://gnews.io/api/v4/search?q=%22Dauda+Kahutu+Rarara%22+Music+Artist&lang=en&max=10&from=2025-12-02T12%3A00%3A00Z&to=2026-03-03T18%3A00%3A00Z&apikey=***
+11:06:20 DEBUG      → 0 articles  (total in index: 0)
+11:06:20 INFO         Query 1: '"Dauda Kahutu Rarara" Music Artist' → 0 articles
+11:06:21 DEBUG      GET https://gnews.io/api/v4/search?q=%22Dauda+Kahutu+Rarara%22+music+news&lang=en&max=10&from=2025-12-02T12%3A00%3A00Z&to=2026-03-03T18%3A00%3A00Z&apikey=***
+11:06:22 ERROR    Daily quota exceeded — stopping run early. GNews HTTP 403: Daily quota exceeded. Resets at 00:00 UTC. Upgrade at https://gnews.io/pricing
+11:06:22 INFO     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+11:06:22 INFO     Finished
+11:06:22 INFO       Artists processed : 10 / 10
+11:06:22 INFO       Artists with hits : 0
+11:06:22 INFO       Articles accepted : 0
+11:06:22 INFO       Articles rejected : 0  (failed relevance filter)
+11:06:22 INFO       Output CSV        : /home/dell/Downloads/news_scrapper/output/news_20260603_110608.csv
+11:06:22 INFO       Rows written      : 0
+11:06:22 WARNING  No articles passed the relevance filter.
+Tips:
+  • Lower MIN_RELEVANCE_SCORE in config.py (currently 2)
+  • Check artist names are spelled correctly in artists.txt
+  • Run with --verbose to see why articles are being rejected
+  • Verify GNEWS_API_KEY is set correctly in your .env file
