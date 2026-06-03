@@ -64,7 +64,9 @@ def _build_row(article: dict, artist: dict, news_type: str,
         "news_type":        news_type,
         "relevance_score":  relevance_score,
         "relevance_reason": relevance_reason,
-        "query_used":       (article.get("query_used", "") or "").strip(),
+        "query_used":       (article.get("query_used",   "") or "").strip(),
+        "window_from":     (article.get("window_from",  "") or "").strip(),
+        "window_to":       (article.get("window_to",    "") or "").strip(),
     }
 
 
