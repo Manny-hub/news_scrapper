@@ -1,0 +1,232 @@
+12:52:02 DEBUG    Loaded: Dauda Kahutu Rarara (Nigeria, Music Artist, max=5)
+12:52:02 DEBUG    Loaded: Umar M Sharif (Nigeria, Music Artist, max=5)
+12:52:02 DEBUG    Loaded: Garzali Miko (Nigeria, Music Artist, max=3)
+12:52:02 DEBUG    Loaded: Zaki Dan Yaya (Nigeria, Music Artist, max=3)
+12:52:02 DEBUG    Loaded: Babba Sadou (Nigeria, Music Artist, max=3)
+12:52:02 DEBUG    Loaded: Burna Boy (Nigeria, Music Artist, max=5)
+12:52:02 DEBUG    Loaded: Wizkid (Nigeria, Music Artist, max=5)
+12:52:02 DEBUG    Loaded: Davido (Nigeria, Music Artist, max=5)
+12:52:02 DEBUG    Loaded: Tiwa Savage (Nigeria, Music Artist, max=5)
+12:52:02 DEBUG    Loaded: Genevieve Nnaji (Nigeria, Actress, max=5)
+12:52:02 INFO     Loaded 10 artist(s) from 'artists.txt'
+12:52:02 INFO     Output CSV → /home/dell/Downloads/news_scrapper/output/news_20260603_125202.csv
+12:52:02 INFO     ━━ [1/10] Dauda Kahutu Rarara (Nigeria · Music Artist · max=5)
+12:52:02 DEBUG    Date windows (4 × ~91d):
+12:52:02 DEBUG      Window 1: 2025-06-03 → 2025-09-02
+12:52:02 DEBUG      Window 2: 2025-09-02 → 2025-12-02
+12:52:02 DEBUG      Window 3: 2025-12-02 → 2026-03-03
+12:52:02 DEBUG      Window 4: 2026-03-03 → 2026-06-03
+12:52:02 INFO       Searching 4 date window(s) (primary query only; fallbacks activate on 0 results)
+12:52:02 INFO       Window 1/4: 2025-06-03 → 2025-09-02
+12:52:02 DEBUG      GET https://gnews.io/api/v4/search?q=%22Dauda+Kahutu+Rarara%22+Music+Artist&lang=en&max=10&from=2025-06-03T00%3A00%3A00Z&to=2025-09-02T06%3A00%3A00Z&apikey=***
+12:52:03 WARNING    GNews quota exceeded — switching ALL remaining artists to web scraper
+12:52:03 WARNING    (GNews HTTP 403: Daily quota exceeded. Resets at 00:00 UTC. Upgrade at https://gnews.io/pricing)
+12:52:03 INFO       [WEB FALLBACK] Scraping preferred domains for: Dauda Kahutu Rarara
+12:52:03 INFO         DDG query 1/9: "Dauda Kahutu Rarara" (site:pulse.ng OR site:bellanaija.com OR site:notjustok.co
+12:52:06 INFO         → 10 DDG results
+12:52:11 DEBUG        Fetched: It’s fake – European-American University disowns musician Rarara’s deg
+12:52:12 DEBUG        Fetched: Nigeriens know Tchiani is nothing but kidnapper - Rarara calls for rel
+12:52:14 DEBUG        Fetched: Singer Rarara’s mum regains freedom 3 weeks after abduction
+12:52:16 DEBUG        Fetched: Singer Rarara&#039;s mum, Halima regains freedom three weeks after abd
+12:52:20 DEBUG        Fetched: Gunmen abduct popular Hausa singer, Rarara’s 75-year-old mother
+12:52:21 DEBUG        Fetched: Arewa youths condemn Rarara’s music, say song creating animosity betwe
+12:52:23 DEBUG        Fetched: DSS kills, arrests kidnappers who abducted mother of Hausa singer Rara
+12:52:25 DEBUG        Fetched: Police confirm abduction of district head, others in Taraba community
+12:52:26 DEBUG        Fetched: International Breweries’ Past Kickstart Entrepreneurs Presented to Dep
+12:52:28 DEBUG        Fetched: #NigeriaDecides2023 - Rara Lyrics by Tekno | Notjustok
+12:52:28 INFO       [WEB FALLBACK] Found 10 articles for Dauda Kahutu Rarara
+12:52:28 INFO       10 unique articles after dedup  [source: webscraper]
+12:52:28 INFO       ✔  [webscraper | score=4 | Update] It’s fake – European-American University disowns musician Rarara’
+12:52:28 INFO       ✔  [webscraper | score=4 | Update] Nigeriens know Tchiani is nothing but kidnapper - Rarara calls fo
+12:52:28 INFO       ✔  [webscraper | score=4 | Artist] Singer Rarara’s mum regains freedom 3 weeks after abduction
+12:52:28 INFO       ✔  [webscraper | score=4 | Artist] Singer Rarara&#039;s mum, Halima regains freedom three weeks afte
+12:52:28 INFO       ✔  [webscraper | score=4 | Artist] Gunmen abduct popular Hausa singer, Rarara’s 75-year-old mother
+12:52:28 INFO       → 5 article(s) accepted for Dauda Kahutu Rarara
+12:52:29 INFO     ━━ [2/10] Umar M Sharif (Nigeria · Music Artist · max=5)
+12:52:29 INFO       [WEB FALLBACK — quota exhausted]
+12:52:29 INFO       [WEB FALLBACK] Scraping preferred domains for: Umar M Sharif
+12:52:29 INFO         DDG query 1/9: "Umar M Sharif" (site:pulse.ng OR site:bellanaija.com OR site:notjustok.com OR s
+12:52:39 INFO         → 10 DDG results
+12:52:42 DEBUG        Fetched: Mixtape DJ SP Boy - Best Of Umar M Shareef Mix
+12:52:43 DEBUG        Fetched: Umar M Shareef Latest Songs, Albums &amp; News 2025
+12:52:45 DEBUG        Fetched: Kano govt commences fresh legal action against blasphemous singer, Yah
+12:52:46 DEBUG        Fetched: Sharif Yahya Aminu: &#039;I&#039;m ready to sign death warrant against
+12:52:48 DEBUG        Fetched: Ms DSF debunks reports of Toke Makinwa’s secret marriage to partner, F
+12:52:50 DEBUG        Fetched: Best Of Umar M Shareef Latest Songs, Albums &amp; News 2025
+12:52:51 DEBUG        Fetched: [Song] Vector – &quot;Kano&quot; ft. Alijita &amp; Umar M Shareef - To
+12:52:53 DEBUG        Fetched: Best Of Umar M Shareef - Tooxclusive
+12:52:54 DEBUG        Fetched: Kano Latest Songs, Albums &amp; News 2025
+12:52:55 DEBUG        Fetched: Latest Vector Songs | Download Vector Music Videos
+12:52:56 INFO       [WEB FALLBACK] Found 10 articles for Umar M Sharif
+12:52:56 INFO       9 unique articles after dedup  [source: webscraper]
+12:52:56 INFO       ✔  [webscraper | score=4 | Artist] Kano govt commences fresh legal action against blasphemous singer
+12:52:56 INFO       ✔  [webscraper | score=4 | Artist] Sharif Yahya Aminu: &#039;I&#039;m ready to sign death warrant ag
+12:52:56 INFO       → 2 article(s) accepted for Umar M Sharif
+12:52:57 INFO     ━━ [3/10] Garzali Miko (Nigeria · Music Artist · max=3)
+12:52:57 INFO       [WEB FALLBACK — quota exhausted]
+12:52:57 INFO       [WEB FALLBACK] Scraping preferred domains for: Garzali Miko
+12:52:57 INFO         DDG query 1/9: "Garzali Miko" (site:pulse.ng OR site:bellanaija.com OR site:notjustok.com OR si
+12:53:03 INFO         → 10 DDG results
+12:53:05 DEBUG        Fetched: Daily Post Staff
+12:53:07 DEBUG        Fetched: Nigeria News
+12:53:09 DEBUG        Fetched: Entertainment Archives
+12:53:10 DEBUG        Fetched: Francis Ezediuno
+12:53:12 DEBUG        Fetched: Business Archives
+12:53:13 DEBUG        Fetched: Daily Post Nigeria - Nigeria News, Nigerian Newspapers
+12:53:14 INFO       [WEB FALLBACK] Found 6 articles for Garzali Miko
+12:53:14 INFO       6 unique articles after dedup  [source: webscraper]
+12:53:14 INFO       → No relevant articles found for Garzali Miko
+12:53:15 INFO     ━━ [4/10] Zaki Dan Yaya (Nigeria · Music Artist · max=3)
+12:53:15 INFO       [WEB FALLBACK — quota exhausted]
+12:53:15 INFO       [WEB FALLBACK] Scraping preferred domains for: Zaki Dan Yaya
+12:53:15 INFO         DDG query 1/9: "Zaki Dan Yaya" (site:pulse.ng OR site:bellanaija.com OR site:notjustok.com OR s
+12:53:26 INFO         → 10 DDG results
+12:53:28 DEBUG    Fetch failed: https://dailypost.ng/2024/12/19/jamian-tsaro-sun-kama-mawakin-siyasa-i — HTTP Error 404: Not Found
+12:53:28 DEBUG        Fetched: Jami’an tsaro sun kama mawakin siyasa, Idris dan zaki burum-burum - Da
+12:53:30 DEBUG        Fetched: Senate reshuffles committees, appoints Abdullahi Yahaya as intelligenc
+12:53:31 DEBUG        Fetched: Latest on Nollywood | . Read on BellaNaija - June 3, 2026
+12:53:33 DEBUG        Fetched: Nigerian Newspapers: 10 things you need to know Saturday morning
+12:53:34 DEBUG        Fetched: Nigerian Newspapers: 10 things you need to know Sunday morning
+12:53:36 DEBUG        Fetched: Daily Post Staff
+12:53:36 INFO       [WEB FALLBACK] Found 6 articles for Zaki Dan Yaya
+12:53:36 INFO       5 unique articles after dedup  [source: webscraper]
+12:53:36 INFO       → No relevant articles found for Zaki Dan Yaya
+12:53:37 INFO     ━━ [5/10] Babba Sadou (Nigeria · Music Artist · max=3)
+12:53:37 INFO       [WEB FALLBACK — quota exhausted]
+12:53:37 INFO       [WEB FALLBACK] Scraping preferred domains for: Babba Sadou
+12:53:37 INFO         DDG query 1/9: "Babba Sadou" (site:pulse.ng OR site:bellanaija.com OR site:notjustok.com OR sit
+12:53:47 INFO         → 10 DDG results
+12:53:49 DEBUG        Fetched: New Music + Video: 2Baba feat. Peruzzi &#8211; Amaka
+12:53:51 DEBUG        Fetched: VIDEO: 2Baba ft. Sauti Sol - Oya Come Make We Go | Notjustok
+12:53:52 DEBUG        Fetched: Babafunke Bobo: Your Domestic Staff &#038; You
+12:53:55 DEBUG        Fetched: Mr Eazi - Suffer Head ft. 2Baba » tooXclusive | MP3
+12:53:56 DEBUG        Fetched: Larry Gaaga - Iworiwo ft. 2Baba » tooXclusive | MP3
+12:53:57 DEBUG        Fetched: Police rescue US-based medical doctor from lynching over false kidnapp
+12:53:58 INFO       [WEB FALLBACK] Found 6 articles for Babba Sadou
+12:53:58 INFO       6 unique articles after dedup  [source: webscraper]
+12:53:58 INFO       → No relevant articles found for Babba Sadou
+12:53:59 INFO     ━━ [6/10] Burna Boy (Nigeria · Music Artist · max=5)
+12:53:59 INFO       [WEB FALLBACK — quota exhausted]
+12:53:59 INFO       [WEB FALLBACK] Scraping preferred domains for: Burna Boy
+12:53:59 INFO         DDG query 1/9: "Burna Boy" (site:pulse.ng OR site:bellanaija.com OR site:notjustok.com OR site:
+12:54:03 INFO         → 10 DDG results
+12:54:05 DEBUG        Fetched: Download Burna Boy Latest Songs MP3 (2026), Albums, Biography &amp; Up
+12:54:07 DEBUG        Fetched: 10 interesting facts about Burna Boy that you may not be aware of
+12:54:08 DEBUG        Fetched: Burna Boy - Wonderful Video
+12:54:10 DEBUG        Fetched: Burna Boy - Bebo (Prod. by Rexxie)
+12:54:12 DEBUG        Fetched: Burna Boy Defined Afro-Fusion in Love, Damini Album With Open Sincerit
+12:54:13 DEBUG        Fetched: Burna Boy Releases New Song / Video, BIG 7
+12:54:14 DEBUG        Fetched: Burna Boy - Trap Symphony
+12:54:16 DEBUG        Fetched: Burna Boy — Stats, Charts &amp; Streams | TooXclusive
+12:54:17 DEBUG        Fetched: Best Of Burna Boy 2021
+12:54:19 DEBUG        Fetched: This Is The Original Sounds From The Other Side! - Burna Boy Outside A
+12:54:19 INFO       [WEB FALLBACK] Found 10 articles for Burna Boy
+12:54:19 INFO       10 unique articles after dedup  [source: webscraper]
+12:54:19 INFO       ✔  [webscraper | score=4 | Album] Download Burna Boy Latest Songs MP3 (2026), Albums, Biography &am
+12:54:19 INFO       ✔  [webscraper | score=4 | Artist] 10 interesting facts about Burna Boy that you may not be aware of
+12:54:19 INFO       ✔  [webscraper | score=4 | Music] Burna Boy - Wonderful Video
+12:54:19 INFO       ✔  [webscraper | score=4 | Album] Burna Boy - Bebo (Prod. by Rexxie)
+12:54:19 INFO       ✔  [webscraper | score=4 | Album] Burna Boy Defined Afro-Fusion in Love, Damini Album With Open Sin
+12:54:19 INFO       → 5 article(s) accepted for Burna Boy
+12:54:20 INFO     ━━ [7/10] Wizkid (Nigeria · Music Artist · max=5)
+12:54:20 INFO       [WEB FALLBACK — quota exhausted]
+12:54:20 INFO       [WEB FALLBACK] Scraping preferred domains for: Wizkid
+12:54:20 INFO         DDG query 1/9: "Wizkid" (site:pulse.ng OR site:bellanaija.com OR site:notjustok.com OR site:too
+12:54:29 INFO         → 10 DDG results
+12:54:32 DEBUG        Fetched: Wizkid Biography, Morayo Album &amp; Complete Discography | Download M
+12:54:34 DEBUG        Fetched: Wizkid Joins Star-Studded Lineup on Vybz Kartel’s Upcoming Album, GOD 
+12:54:38 DEBUG        Fetched: Long Live Lagos: Wizkid Takes Centre Stage in New HBO Documentary
+12:54:44 DEBUG        Fetched: Wizkid Makes African History After Crossing 100 Million Shazams
+12:54:45 DEBUG        Fetched: The Evolution of Wizkid: From Superstar to Starboy
+12:54:47 DEBUG        Fetched: Wizkid’s 30 Biggest Hits: Chart Success, Streams &amp; Global Impact
+12:54:51 DEBUG        Fetched: Tell Me About Wizkid — TooXclusive Stats
+12:54:53 DEBUG        Fetched: Wizkid’s 20 Biggest Hits : Chart Success and Global Impact
+12:54:55 DEBUG        Fetched: Wizkid Biography, Morayo Album &amp; Complete Discography | Download M
+12:54:57 DEBUG        Fetched: Wizkid and Asake Release “Jogodo” Ahead of First Collaborative EP
+12:54:57 INFO       [WEB FALLBACK] Found 10 articles for Wizkid
+12:54:57 INFO       9 unique articles after dedup  [source: webscraper]
+12:54:57 INFO       ✔  [webscraper | score=4 | Album] Wizkid Biography, Morayo Album &amp; Complete Discography | Downl
+12:54:57 INFO       ✔  [webscraper | score=4 | Album] Wizkid Joins Star-Studded Lineup on Vybz Kartel’s Upcoming Album,
+12:54:57 INFO       ✔  [webscraper | score=2 | Event] Long Live Lagos: Wizkid Takes Centre Stage in New HBO Documentary
+12:54:57 INFO       ✔  [webscraper | score=4 | Music] Wizkid Makes African History After Crossing 100 Million Shazams
+12:54:57 INFO       ✔  [webscraper | score=4 | Update] The Evolution of Wizkid: From Superstar to Starboy
+12:54:57 INFO       → 5 article(s) accepted for Wizkid
+12:54:58 INFO     ━━ [8/10] Davido (Nigeria · Music Artist · max=5)
+12:54:58 INFO       [WEB FALLBACK — quota exhausted]
+12:54:58 INFO       [WEB FALLBACK] Scraping preferred domains for: Davido
+12:54:58 INFO         DDG query 1/9: "Davido" (site:pulse.ng OR site:bellanaija.com OR site:notjustok.com OR site:too
+12:55:13 INFO         → 10 DDG results
+12:55:15 DEBUG        Fetched: Davido announces break from music
+12:55:17 DEBUG        Fetched: Davido Biography, 5ive Album &amp; Complete Discography | Download MP3
+12:55:19 DEBUG        Fetched: 15 hit songs that document Davido
+12:55:20 DEBUG        Fetched: Davido announces busy 2026 with lineup of activities
+12:55:23 DEBUG        Fetched: Davido &#038; Omah Lay are Serving Romance and Rhythm in the “With You
+12:55:26 DEBUG        Fetched: Davido says he
+12:55:27 DEBUG        Fetched: Check out Davido&#039;s new song snippet people can&#039;t stop talkin
+12:55:29 DEBUG        Fetched: Davido’s &#8216;Still Be There&#8217; Is About Hustle, Legacy &#038; F
+12:55:31 DEBUG        Fetched: MohBad - Once Debe ft. Davido
+12:55:32 DEBUG        Fetched: Davido ft. Omah Lay - With You
+12:55:33 INFO       [WEB FALLBACK] Found 10 articles for Davido
+12:55:33 INFO       10 unique articles after dedup  [source: webscraper]
+12:55:33 INFO       ✔  [webscraper | score=4 | Event] Davido announces break from music
+12:55:33 INFO       ✔  [webscraper | score=4 | Album] Davido Biography, 5ive Album &amp; Complete Discography | Downloa
+12:55:33 INFO       ✔  [webscraper | score=4 | Music] 15 hit songs that document Davido
+12:55:33 INFO       ✔  [webscraper | score=4 | Music] Davido announces busy 2026 with lineup of activities
+12:55:33 INFO       ✔  [webscraper | score=3 | Music] Davido &#038; Omah Lay are Serving Romance and Rhythm in the “Wit
+12:55:33 INFO       → 5 article(s) accepted for Davido
+12:55:34 INFO     ━━ [9/10] Tiwa Savage (Nigeria · Music Artist · max=5)
+12:55:34 INFO       [WEB FALLBACK — quota exhausted]
+12:55:34 INFO       [WEB FALLBACK] Scraping preferred domains for: Tiwa Savage
+12:55:34 INFO         DDG query 1/9: "Tiwa Savage" (site:pulse.ng OR site:bellanaija.com OR site:notjustok.com OR sit
+12:55:36 INFO         → 10 DDG results
+12:55:39 DEBUG        Fetched: VIDEO PREMIERE: Tiwa Savage - Rewind
+12:55:40 DEBUG        Fetched: Album Tiwa Savage - Celia
+12:55:42 DEBUG        Fetched: 8 Reasons Why Tiwa Savage Is And Will Remain Queen
+12:55:43 DEBUG        Fetched: Tiwa Savage — Stats, Charts &amp; Streams | TooXclusive
+12:55:45 DEBUG        Fetched: Tiwa Savage - Colors Of Love
+12:55:47 DEBUG        Fetched: Tiwa Savage To Feature Veteran Actress, Iya Rainbow On Her New Music V
+12:55:48 DEBUG        Fetched: Tiwa Savage Songs Download MP3, Albums, Biography &amp; Latest Music 2
+12:55:50 DEBUG        Fetched: EP REVIEW: Tiwa Savage - &#039;SugarCane&#039;
+12:55:51 DEBUG        Fetched: Tiwa Savage - His Voice
+12:55:53 DEBUG        Fetched: Tiwa Savage Reacts To Making BBC&#039;s Top 100 Inspirational &amp; In
+12:55:53 INFO       [WEB FALLBACK] Found 10 articles for Tiwa Savage
+12:55:53 INFO       10 unique articles after dedup  [source: webscraper]
+12:55:53 INFO       ✔  [webscraper | score=4 | Album] VIDEO PREMIERE: Tiwa Savage - Rewind
+12:55:53 INFO       ✔  [webscraper | score=4 | Album] Album Tiwa Savage - Celia
+12:55:53 INFO       ✔  [webscraper | score=4 | Update] 8 Reasons Why Tiwa Savage Is And Will Remain Queen
+12:55:53 INFO       ✔  [webscraper | score=4 | Artist] Tiwa Savage — Stats, Charts &amp; Streams | TooXclusive
+12:55:53 INFO       ✔  [webscraper | score=4 | Music] Tiwa Savage - Colors Of Love
+12:55:53 INFO       → 5 article(s) accepted for Tiwa Savage
+12:55:54 INFO     ━━ [10/10] Genevieve Nnaji (Nigeria · Actress · max=5)
+12:55:54 INFO       [WEB FALLBACK — quota exhausted]
+12:55:54 INFO       [WEB FALLBACK] Scraping preferred domains for: Genevieve Nnaji
+12:55:54 INFO         DDG query 1/9: "Genevieve Nnaji" (site:pulse.ng OR site:bellanaija.com OR site:notjustok.com OR
+12:55:56 INFO         → 10 DDG results
+12:55:59 DEBUG        Fetched: Genevieve Nnaji Latest Songs, Albums &amp; News 2025
+12:56:00 DEBUG        Fetched: How Genevieve Nnaji Pranked Me On Set Of Lionheart’ - Jemima Osunde Sh
+12:56:02 DEBUG        Fetched: Nollywood&#039;s Genevieve Nnaji Shows Off Her Shaku Shaku Skill With 
+12:56:04 DEBUG        Fetched: Soft - Genevieve | Listen &amp; Download MP3&raquo; tooXclusive
+12:56:05 DEBUG        Fetched: Genevieve News Latest Songs, Albums &amp; News 2025
+12:56:07 DEBUG        Fetched: See Photos From The Red Carpet Of Love Like A Movie 3
+12:56:08 DEBUG        Fetched: VIDEO: D&#039;Banj Talks Genevieve, Half Of A Yellow Sun Sountrack &am
+12:56:10 DEBUG        Fetched: Rapper, Lynxx &amp; Nollywood Actress, Genevieve Nnaji Spark Up Dating
+12:56:11 DEBUG        Fetched: Jemima Osunde News Latest Songs, Albums &amp; News 2025
+12:56:12 DEBUG        Fetched: VIDEO: Kush - Lets Live Together ft. Flavour &amp; Morell (Half Of A Y
+12:56:12 INFO       [WEB FALLBACK] Found 10 articles for Genevieve Nnaji
+12:56:12 INFO       9 unique articles after dedup  [source: webscraper]
+12:56:12 INFO       ✔  [webscraper | score=4 | Album] Genevieve Nnaji Latest Songs, Albums &amp; News 2025
+12:56:12 INFO       ✔  [webscraper | score=4 | Movie] How Genevieve Nnaji Pranked Me On Set Of Lionheart’ - Jemima Osun
+12:56:12 INFO       ✔  [webscraper | score=4 | Movie] Nollywood&#039;s Genevieve Nnaji Shows Off Her Shaku Shaku Skill 
+12:56:12 INFO       ✔  [webscraper | score=3 | Update] Soft - Genevieve | Listen &amp; Download MP3&raquo; tooXclusive
+12:56:12 INFO       ✔  [webscraper | score=4 | Music] VIDEO: D&#039;Banj Talks Genevieve, Half Of A Yellow Sun Sountrac
+12:56:12 INFO       → 5 article(s) accepted for Genevieve Nnaji
+12:56:12 INFO     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+12:56:12 INFO     Finished
+12:56:12 INFO       Artists processed  : 10
+12:56:12 INFO       Artists with hits  : 7
+12:56:12 INFO       Articles accepted  : 32  (GNews: 0  Web: 32)
+12:56:12 INFO       Articles rejected  : 25  (failed relevance filter)
+12:56:12 WARNING    GNews quota was exhausted during this run.
+12:56:12 WARNING    Resets at 00:00 UTC. Web scraper covered remaining artists.
+12:56:12 INFO       Output CSV         : /home/dell/Downloads/news_scrapper/output/news_20260603_125202.csv
+12:56:12 INFO       Rows written       : 32
